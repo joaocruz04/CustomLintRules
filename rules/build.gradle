@@ -8,6 +8,15 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_7
 }
 
+jar{
+    manifest{
+        attributes 'Lint-Registry-V2': 'com.joaocruz04.customlintrules.rules.IssuesRegistry'
+    }
+}
+
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    compileOnly "com.android.tools.lint:lint-api:$lintVersion"
+    compileOnly "com.android.tools.lint:lint-checks:$lintVersion"
 }
