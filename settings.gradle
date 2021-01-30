@@ -1,3 +1,5 @@
+include ':certificaterule'
+include ':certificate'
 include ':rules'
 include ':app'
 rootProject.name = "CustomLintRules"

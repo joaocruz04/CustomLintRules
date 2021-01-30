@@ -10,7 +10,7 @@ java {
 
 jar{
     manifest{
-        attributes 'Lint-Registry-V2': 'com.joaocruz04.customlintrules.rules.IssuesRegistry'
+        attributes 'Lint-Registry-V2': 'com.joaocruz04.certificaterule.CertificateIssuesRegistry'
     }
 }
 
