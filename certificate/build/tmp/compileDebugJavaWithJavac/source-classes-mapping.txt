@@ -1,2 +1,0 @@
-com/joaocruz04/certificate/BuildConfig.java
- com.joaocruz04.certificate.BuildConfig

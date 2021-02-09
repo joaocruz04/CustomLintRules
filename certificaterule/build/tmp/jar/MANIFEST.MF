@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Lint-Registry-V2: com.joaocruz04.certificaterule.CertificateIssuesRegi
- stry
-
